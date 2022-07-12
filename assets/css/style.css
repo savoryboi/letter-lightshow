@@ -10,6 +10,9 @@ html, body, main {
     height: 100%;
     width: 100%;
 }
+
+
+
 .d-flex {
     display: flex;
     flex-direction: column;
@@ -21,6 +24,12 @@ html, body, main {
     margin: auto;
     align-items: center;
 }
+
+.hidden {
+    visibility: none;
+}
+
+
 
 #text-display {
     width: fit-content;

@@ -13,6 +13,6 @@ $(document).on('keydown', function(event){
 })
 
 $(document).on('keyup', function(event) {
-    $('#text-display').text('');
+    $('#text-display').text(':)');
     $('#bg').css('background-color', 'white')
 })
