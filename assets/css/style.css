@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.center {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+#text-display {
+    width: fit-content;
+    padding: 25px;
+    border: 2px white solid;
+    border-radius: 14px;
+}
