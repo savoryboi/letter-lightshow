@@ -4,6 +4,10 @@ var pallete = ['#B0F81F', '#7CBA00', '#E5FC23', '#FFD300', '#00A100', '#00DE00',
 
 const warning = confirm('WARNING: This application contains flashing/changing lights and colors that may cause nausea or seizures for some.')
 
+if(!warning) {
+    window.close()
+}
+
 $(document).on('keydown', function(event){
     var randColor = pallete[Math.floor(Math.random() * pallete.length)] ;
     if(letters.includes(event.key)) {
